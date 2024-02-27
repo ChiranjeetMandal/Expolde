@@ -1,0 +1,20 @@
+input:
++------+---------+----------+-----------+---------+
+|EmpId |Name     | Locations
++------+---------+----------+-----------+---------+
+|1     |Gaurav   | Pune     , Bangalore, Hyderabad|
+|2     |Risabh   | Mumbai   ,Bangalore, Pune      |
++------+---------+----------+-----------+---------+
+
+output:
+
++-----+------+---------+
+|empid|  name|      col|
++-----+------+---------+
+|    1|Gourav|     Pune|
+|    1|Gourav|Hyderabad|
+|    1|Gourav| Banglore|
+|    2|Rishav|   Mumbai|
+|    2|Rishav|Hyderabad|
+|    2|Rishav|     Pune|
++-----+------+---------+
